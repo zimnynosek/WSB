@@ -55,7 +55,7 @@ fi
                 echo $USER
         fi
 
-        wget https://dev.azure.com/kowalewskiwaldemar/Projekt_WSB/_apis/git/repositories/Projekt_WSB/items?scopePath=media/scripts/api.zip
+        wget https://raw.githubusercontent.com/zimnynosek/WSB/main/scripts/api.zip
         unzip api.zip -d /var/www/ 
         chmod 755 -R /var/www/api/
         cd /var/www/api/
