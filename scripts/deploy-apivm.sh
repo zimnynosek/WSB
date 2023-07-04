@@ -61,7 +61,7 @@ fi
         cd /var/www/api/
         sudo npm install
         
-        sudo PORT='3000' MONGODB_URI="mongodb://10.51.4.4:27017/webratings" pm2 start /var/www/api/bin/www --name rating-api
+        sudo PORT='3000' MONGODB_URI="mongodb://10.50.4.4:27017/webratings" pm2 start /var/www/api/bin/www --name rating-api
         sudo pm2 startup
         sudo pm2 save
 
